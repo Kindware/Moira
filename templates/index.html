@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moira Interface</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='images/moira-logo.svg') }}" type="image/svg+xml">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Moira 0.2a</h1></h1>
+            <img src="{{ url_for('static', filename='images/moira.png') }}" alt="Moira Portrait" class="logo">
+            <h1>How can I help you?</h1>
+        </header>
+        
+        <div class="chat-container">
+            <div class="pre-questions">
+                <button class="pre-question">How do I use Moira?</button>
+                <p></p>
+                <button class="pre-question">What are some effective daily routines for autistic children?</button>
+                <button class="pre-question">How can I help my child with sensory sensitivities?</button>
+                <button class="pre-question">What communication strategies work best for non-verbal children?</button>
+                <button class="pre-question">How do I handle meltdowns or emotional outbursts?</button>
+                <button class="pre-question">What are some calming techniques for anxiety?</button>
+                <button class="pre-question">How can I support my child's social skills?</button>
+                <button class="pre-question">What resources are available for parents of autistic children?</button>
+                <button class="pre-question">How do I advocate for my child at school?</button>
+                <button class="pre-question">What are some fun activities for sensory play?</button>
+                <button class="pre-question">How can I help siblings understand and support each other?</button>
+            </div>
+            <div id="chat-messages" class="messages"></div>
+            
+            <div class="input-container">
+                <textarea id="user-input" placeholder="Type your message here..." rows="3"></textarea>
+                <button id="send-button">Send</button>
+            </div>
+            <button id="press-to-talk">Press and Hold to Talk</button>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html> 

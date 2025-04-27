@@ -1,0 +1,8 @@
+flask==3.0.2
+openai==0.27.8
+python-dotenv==1.0.0
+elevenlabs==0.2.26
+apscheduler
+dateparser
+rapidfuzz
+pycryptodome 
