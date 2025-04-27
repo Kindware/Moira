@@ -1,6 +1,6 @@
 # Moira: An AI Assistant for Families Supporting Autism
 
-Moira: Your Autism Support Companion
+Moira: Your Autism Support Companion 
 Moira is a friendly, research-informed digital assistant designed to support families living with autism. She’s always calm, nurturing, and ready to help!
 What Can You Do With Moira?
 1. Ask Questions
